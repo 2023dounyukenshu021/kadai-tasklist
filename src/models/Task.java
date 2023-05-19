@@ -29,7 +29,7 @@ public class Task {
     private Timestamp created_at;
 
     @Column(name ="updated_at", nullable = false)
-    private Timestamp upadated_at;
+    private Timestamp updated_at;
 
     @Column(name ="content", nullable = false, length = 255)
     private String content;
@@ -50,12 +50,12 @@ public class Task {
         this.created_at = created_at;
     }
 
-    public Timestamp getUpadated_at() {
-        return upadated_at;
+    public Timestamp getUpdated_at() {
+        return getUpdated_at();
     }
 
-    public void setUpadated_at(Timestamp upadated_at) {
-        this.upadated_at = upadated_at;
+    public void setUpdated_at(Timestamp updated_at) {
+        this.updated_at = updated_at;
     }
 
     public String getContent() {
