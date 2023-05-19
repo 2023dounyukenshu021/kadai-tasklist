@@ -3,9 +3,18 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>Insert title here</title>
+        <title>タスク管理</title>
     </head>
     <body>
+        <div id ="wrapper">
+            <h1>タスク管理 アプリケーション</h1>
+        </div>
+        <div id="content">
+            ${param.content}
+        </div>
+        <div id="footer">
+         by Taro Kirameki
+        </div>
 
     </body>
 </html>
