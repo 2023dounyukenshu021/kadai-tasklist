@@ -51,7 +51,7 @@ public class Task {
     }
 
     public Timestamp getUpdated_at() {
-        return getUpdated_at();
+        return updated_at;
     }
 
     public void setUpdated_at(Timestamp updated_at) {
