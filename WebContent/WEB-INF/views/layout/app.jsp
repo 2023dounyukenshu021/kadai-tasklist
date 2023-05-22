@@ -12,7 +12,7 @@
     <body>
         <div id ="wrapper">
             <div id="header">
-                <h1>タスク管理 アプリケーション</h1>
+           <fmt:formatDate value="${task.updated_at }" pattern="yyyy-MM-dd HH:mm:ss" />     <h1>タスク管理 アプリケーション</h1>
             </div>
 
         </div>
